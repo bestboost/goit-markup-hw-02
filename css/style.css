@@ -1,4 +1,39 @@
-/* fonts 
- */
-body
-/*description of company*/
+:root {
+--secondary-background-color: #FEFEFE;
+--main-text-color: #757575;
+--secondary-text-color: #FFFFFF;
+--headline-color: #212121;
+--accent-color: #2196F3; }
+
+body {
+
+    background-color: #FFFFFF;
+}
+
+/* header */
+.page-header {
+
+}
+.logo {
+ color: #000000;
+}
+.logo span {
+ color: var(--accent-color);
+}
+.site-nav {
+ color: var(--headline-color);
+}
+
+.author-nav {
+ color: var(--main-text-color);
+}
+
+ /* main */
+ .section {
+
+ }
+
+ /* footer */
+ .page-footer {
+
+ }
