@@ -28,6 +28,9 @@ body {
 .site-nav a:focus {
     color: var(--accent-color);
 }
+.link.current {
+    color: var(--accent-color);
+    }
 .contacts-nav a {
  color: var(--main-text-color);
 }
@@ -66,7 +69,6 @@ background-color: #2F303A;
     background-color: #2F303A;  
 }
  .page-footer a {
-    
     color: var(--secondary-text-color);
    }
  .logo-footer {
@@ -75,6 +77,7 @@ background-color: #2F303A;
  .logo-footer span {
   color: var(--accent-color);
  }
- .contacts {
-
+ .contacts a:hover,
+ .contacts a:focus {
+  color: var(--accent-color);
  }
