@@ -14,20 +14,27 @@ body {
 .page-header {
 
 }
-.logo {
+.logo a {
  color: #000000;
 }
+
 .logo span {
  color: var(--accent-color);
 }
-.site-nav {
+.site-nav a {
  color: var(--headline-color);
 }
-
-.author-nav a {
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.contacts-nav a {
  color: var(--main-text-color);
 }
-
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+color: var(--accent-color);
+}
 /* hero */
 .hero {
 background-color: #2F303A;
@@ -36,7 +43,7 @@ background-color: #2F303A;
   color: var(--secondary-text-color);
 }
 
-.hero-button {
+.hero-button { 
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
