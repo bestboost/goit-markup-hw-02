@@ -10,6 +10,7 @@ body {
     background-color: #FFFFFF;
     font-family:Roboto, sans-serif;
     font-style: normal;
+    font-weight: 400;
    }
 
 a {
@@ -64,7 +65,9 @@ color: var(--secondary-text-color);
 font-family: inherit;
 font-weight: 700;
 font-size: 16px;
-line-height: 1.9; }
+line-height: 1.9; 
+cursor: pointer;
+}
 /* display: flex;
 align-items: center;
 text-align: center; 
@@ -87,10 +90,6 @@ letter-spacing: 0.06em
 
 /* section */
 
- .section {
-
- }
- 
  .section-title {
 color: var(--title-color);
 font-weight: 700;
@@ -105,11 +104,11 @@ text-align: center;
     line-height: 1.1;
 }
  .section-text {
-     color: var(--main-text-color);
-    font-weight: 400;
+    color: var(--main-text-color);
     font-size: 14px;
     line-height: 1.7;
  }
+ 
 /* company team */
 .employee-names {
     color: var(--title-color);
@@ -119,7 +118,6 @@ text-align: center;
 }
 .employee-specialy {
     color: var(--main-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
 }
@@ -143,7 +141,6 @@ color: var(--accent-color);
 font-family: Raleway; 
  }
 .contacts a {
-font-weight: 400;
 font-style: normal;
 font-size: 14px;
 line-height: 1.7;
@@ -163,6 +160,7 @@ font-size: 16px;
 line-height: 1.6x;
 text-align: center;
 letter-spacing: 0.03em;
+cursor: pointer;
 }
 .portfolio-filter:hover,
 .portfolio-filter:focus {
@@ -177,7 +175,6 @@ line-height: 2;
 }
 .portfolio-discription {
 color: var(--main-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
 }
